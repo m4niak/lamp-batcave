@@ -1,16 +1,13 @@
 <?php
-phpinfo();
-
+// phpinfo();
 //// Create connection
 $host_db = "dockerdb";
-$username = "root";
-$password = "root";
+$username = "admin";
+$password = "1234";
 $database = "database";
 $conn = new mysqli($host_db, $username, $password, $database);
-Check connection
+// Check connection
 if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+    die("Connection failed: " . $conn->connect_error);
 }
-
 echo "Connected successfully";
-
