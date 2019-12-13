@@ -3,8 +3,8 @@
 //// Create connection
 $host_db = "dockerdb";
 $username = "admin";
-$password = "1234";
-$database = "database";
+$password = "mysqlpass";
+$database = "databasemysql";
 $conn = new mysqli($host_db, $username, $password, $database);
 // Check connection
 if ($conn->connect_error) {
