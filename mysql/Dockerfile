@@ -1,2 +1,2 @@
-FROM mysql:8
+FROM mysql:latest
 COPY ./my.cnf /etc/mysql/conf.d
